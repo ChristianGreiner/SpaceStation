@@ -2,19 +2,38 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FootSteps : MonoBehaviour
+public class FootstepsController : MonoBehaviour
 {
     private CharacterController character;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         this.character = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (this.character.isGrounded && this.character.velocity.magnitude > 0.25f)
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, 5f))
+            {
+                Debug.Log(hit.transform.gameObject.name);
+                var target = hit.transform.gameObject;
+                if (target.tag == "Metal")
+                {
+                    // play metal sounds
+                }
+                else if (target.tag == "Sand")
+                {
+                    // play sand sounds
+                }
+                else
+                {
+                }
+            }
+        }
     }
 }
