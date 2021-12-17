@@ -20,13 +20,13 @@ public class FootstepsController : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, 5f))
             {
-                Debug.Log(hit.transform.gameObject.name);
+                //Debug.Log(hit.transform.gameObject.name);
                 var target = hit.transform.gameObject;
                 if (target.tag == "Metal")
                 {
                     // play metal sounds
                 }
-                else if (target.tag == "Sand")
+                else if (target.tag == "Gravel")
                 {
                     // play sand sounds
                 }
