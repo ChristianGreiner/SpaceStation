@@ -9,7 +9,11 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Dynamic" ID="{EB3A6D21-8F9E-41D2-9D7F-ABF13704119A}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Rocket" ID="{4435243D-8099-43DD-8D92-F9DFF246BC98}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rocket_Start" ID="{060F892F-0DFF-47B3-9FF2-623E8A2E51C2}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rocket_Stop" ID="{45B113EA-765C-48D0-A667-C3EB0CB614B4}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

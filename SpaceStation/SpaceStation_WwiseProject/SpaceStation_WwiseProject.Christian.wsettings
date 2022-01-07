@@ -5,9 +5,14 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="G:\Meine Ablage\HS Aalen Informatik\7. Semester (WS)\Audio- und Bildformate\Projekte\Projekt 3\Sounds\Static\"/>
 				<Property Name="Event Action List\{028A79B3-6865-4632-B30E-1DF41CAC0C80}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4435243D-8099-43DD-8D92-F9DFF246BC98}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{45B113EA-765C-48D0-A667-C3EB0CB614B4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5F6CCBB2-0A4A-48BA-8643-6ED4E49B60BA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9D0C1D38-8F48-4CE2-B772-E1B3651AF06C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B430D302-0087-4A09-AB57-60BF277DBB1A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B9A22601-30BD-43EB-95D6-C63DD09567C9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D559E83E-FC10-4000-8162-0E8573A211A5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E9A9E529-51E9-47F4-827F-28D79911683A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>

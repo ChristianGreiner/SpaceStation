@@ -139,58 +139,6 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<Sound Name="Portal" ID="{293277BF-ADE0-4F9D-B1AB-560751E6F6CE}" ShortID="533882606">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="MaxSoundPerInstance" Type="int16">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Pitch" Type="int32">
-							<ValueList>
-								<Value>-100</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-15</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Portal" ID="{9F0A9951-404F-4FB2-B56D-CA8F32B93CC3}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="portal" ID="{9CDEA95E-C085-46AB-9BC8-0DD80B808339}">
-							<PropertyList>
-								<Property Name="LoopEnd" Type="Real64" Value="15"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>portal.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="998614657"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<PositioningInfo>
-						<Position Name="" ID="{3E80FEB5-E702-4CC0-AB71-4B8F3B645F90}"/>
-					</PositioningInfo>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="portal" ID="{9CDEA95E-C085-46AB-9BC8-0DD80B808339}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Folder Name="Ambiant" ID="{EE3511B9-9A53-4BB9-9229-46C123093BE0}" ShortID="580692729">
 					<ChildrenList>
 						<Sound Name="Hum" ID="{78F4FEA7-D3E2-4F32-8900-6E584123B10C}" ShortID="746331909">
@@ -222,6 +170,129 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="SciFi-Hum-Loop" ID="{5073C804-F07D-4CCC-B2B6-386C22EC5AF8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Statics" ID="{4848B73F-A58E-492F-A998-15FBA427BF3F}" ShortID="252349591">
+					<ChildrenList>
+						<Sound Name="Portal" ID="{293277BF-ADE0-4F9D-B1AB-560751E6F6CE}" ShortID="533882606">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Portal" ID="{9F0A9951-404F-4FB2-B56D-CA8F32B93CC3}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="portal" ID="{9CDEA95E-C085-46AB-9BC8-0DD80B808339}">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="15"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>portal.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="998614657"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{3E80FEB5-E702-4CC0-AB71-4B8F3B645F90}"/>
+							</PositioningInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="portal" ID="{9CDEA95E-C085-46AB-9BC8-0DD80B808339}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dynamic" ID="{1B6B4CCA-3231-4AB1-94A7-DDB2CB43CCB6}" ShortID="714251125">
+					<ChildrenList>
+						<Sound Name="Rocket_Start" ID="{060F892F-0DFF-47B3-9FF2-623E8A2E51C2}" ShortID="629707232">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Rocket" ID="{36291346-28E5-4677-ACCE-6E2F4A0F92E8}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rocket_start" ID="{99A77BEA-39C4-4972-B2A5-E02F09FF476D}">
+									<Language>SFX</Language>
+									<AudioFile>rocket_start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="89312253"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="rocket_start" ID="{99A77BEA-39C4-4972-B2A5-E02F09FF476D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="rocket_stop" ID="{2586CD90-414B-4B61-9352-5B9F79709E2F}" ShortID="314906316">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Rocket" ID="{36291346-28E5-4677-ACCE-6E2F4A0F92E8}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rocket_stop" ID="{6FC73398-FC64-4965-B18E-4EB61C2D8578}">
+									<Language>SFX</Language>
+									<AudioFile>rocket_stop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1014684926"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="rocket_stop" ID="{6FC73398-FC64-4965-B18E-4EB61C2D8578}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

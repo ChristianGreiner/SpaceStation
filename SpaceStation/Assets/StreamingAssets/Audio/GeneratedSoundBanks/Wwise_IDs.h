@@ -15,7 +15,10 @@ namespace AK
     {
         static const AkUniqueID PLAY_HUM = 2893555504U;
         static const AkUniqueID PLAY_PORTAL = 2424882924U;
+        static const AkUniqueID PLAY_ROCKET_START = 3606185931U;
+        static const AkUniqueID PLAY_ROCKET_STOP = 2818399593U;
         static const AkUniqueID STOP_PORTAL = 118760090U;
+        static const AkUniqueID STOP_ROCKET = 3301881080U;
     } // namespace EVENTS
 
     namespace BANKS

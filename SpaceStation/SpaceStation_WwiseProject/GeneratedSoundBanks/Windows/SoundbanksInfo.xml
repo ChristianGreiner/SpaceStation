@@ -56,10 +56,28 @@
 				<Event Id="118760090" Name="Stop_Portal" ObjectPath="\Events\Default Work Unit\Stop_Portal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2223635772" Language="SFX" Hash="84375916">
+		<SoundBank Id="2223635772" Language="SFX" Hash="1191217669">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dynamic</ObjectPath>
 			<ShortName>Dynamic</ShortName>
 			<Path>Dynamic.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3606185931" Name="Play_Rocket_Start" ObjectPath="\Events\Default Work Unit\Play_Rocket_Start" MaxAttenuation="120.000000" DurationType="OneShot" DurationMin="14.530612" DurationMax="14.530612"/>
+				<Event Id="2818399593" Name="Play_Rocket_Stop" ObjectPath="\Events\Default Work Unit\Play_Rocket_Stop" MaxAttenuation="120.000000" DurationType="OneShot" DurationMin="14.530612" DurationMax="14.530612">
+					<IncludedMemoryFiles>
+						<File Id="1014684926" Language="SFX">
+							<ShortName>rocket_stop.wav</ShortName>
+							<Path>SFX\rocket_stop_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3301881080" Name="Stop_Rocket" ObjectPath="\Events\Default Work Unit\Stop_Rocket" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="89312253" Language="SFX">
+					<ShortName>rocket_start.wav</ShortName>
+					<Path>SFX\rocket_start_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

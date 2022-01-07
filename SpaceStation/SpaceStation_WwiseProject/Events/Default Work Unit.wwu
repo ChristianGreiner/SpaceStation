@@ -36,6 +36,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Rocket_Start" ID="{E9A9E529-51E9-47F4-827F-28D79911683A}">
+					<ChildrenList>
+						<Action Name="" ID="{481D9F9D-2EC4-4070-860F-254362B20C31}" ShortID="176058699">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rocket_Start" ID="{060F892F-0DFF-47B3-9FF2-623E8A2E51C2}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Rocket" ID="{4435243D-8099-43DD-8D92-F9DFF246BC98}">
+					<ChildrenList>
+						<Action Name="" ID="{49682B88-965A-4610-9149-F85C63EA0E3E}" ShortID="185457005">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rocket_Start" ID="{060F892F-0DFF-47B3-9FF2-623E8A2E51C2}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rocket_Stop" ID="{45B113EA-765C-48D0-A667-C3EB0CB614B4}">
+					<ChildrenList>
+						<Action Name="" ID="{C0E14E86-98F6-4CFC-B643-E68740B67EA8}" ShortID="579360476">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rocket_stop" ID="{2586CD90-414B-4B61-9352-5B9F79709E2F}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Rocket_Stop" ID="{D559E83E-FC10-4000-8162-0E8573A211A5}">
+					<ChildrenList>
+						<Action Name="" ID="{FC524692-A58A-4A4B-9421-CCB6FD80068B}" ShortID="1013873605">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rocket_stop" ID="{2586CD90-414B-4B61-9352-5B9F79709E2F}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

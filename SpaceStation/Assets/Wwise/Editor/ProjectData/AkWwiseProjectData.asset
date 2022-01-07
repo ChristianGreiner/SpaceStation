@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d8adc0923e30f542880ae1f3f5b2e72d
     GuidInternal: 
-    m_lastTime: -8585600276144384226
+    m_lastTime: -8585600225972358854
     List:
     - name: Ambiant
       guid: 8fef879fdace004eb945ce2fa30c5704
@@ -150,7 +150,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 514b0d41f2f380479785231ba397bf84
     GuidInternal: 
-    m_lastTime: -8585600276144154848
+    m_lastTime: -8585600225799680879
     List:
     - name: Play_Hum
       guid: 381d0c9d488fe24cb772e1b3651af06c
@@ -186,6 +186,40 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
+    - name: Play_Rocket_Start
+      guid: 29e5a9e9e951f447827f28d79911683a
+      id: 3606185931
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Rocket_Start
+        ObjectType: 3
+        guid: 29e5a9e9e951f447827f28d79911683a
+      Path: Events\Default Work Unit\Play_Rocket_Start
+      maxAttenuation: 70
+      maxDuration: 14.530612
+      minDuration: 14.530612
+    - name: Play_Rocket_Stop
+      guid: ea13b1455c76d048a667c3eb0cb614b4
+      id: 2818399593
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Rocket_Stop
+        ObjectType: 3
+        guid: ea13b1455c76d048a667c3eb0cb614b4
+      Path: Events\Default Work Unit\Play_Rocket_Stop
+      maxAttenuation: 70
+      maxDuration: 14.530612
+      minDuration: 14.530612
     - name: Stop_Portal
       guid: 0126a2b9bd30eb4395d6c63dd09567c9
       id: 118760090
@@ -203,6 +237,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_Rocket
+      guid: 3d2435449980dd438d92f9dff246bc98
+      id: 3301881080
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Stop_Rocket
+        ObjectType: 3
+        guid: 3d2435449980dd438d92f9dff246bc98
+      Path: Events\Default Work Unit\Stop_Rocket
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Rocket_Stop
+      guid: 3ee859d510fc004081620e8573a211a5
+      id: 2378439735
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Stop_Rocket_Stop
+        ObjectType: 3
+        guid: 3ee859d510fc004081620e8573a211a5
+      Path: Events\Default Work Unit\Stop_Rocket_Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -260,7 +328,7 @@ MonoBehaviour:
     m_lastTime: -8585616534831937052
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e000000aa000000e4000000e5000000e600000005010000060100002301000027010000280100003d010000550100008a0100008b0100009601000097010000b0010000b1010000c3010000c4010000db010000dc010000dd010000de010000c0020000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000009600000097000000aa000000e4000000e5000000e6000000050100000601000011010000120100002301000027010000280100003d0100004201000043010000550100008a0100008b0100009601000097010000b0010000b1010000b7010000b8010000c3010000c4010000db010000dc010000dd010000de010000c0020000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
