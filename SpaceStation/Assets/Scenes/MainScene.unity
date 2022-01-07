@@ -5542,6 +5542,7 @@ GameObject:
   - component: {fileID: 1246412982}
   - component: {fileID: 1246412981}
   - component: {fileID: 1246412980}
+  - component: {fileID: 1246412983}
   m_Layer: 0
   m_Name: Ambiant
   m_TagString: Untagged
@@ -5620,6 +5621,30 @@ MonoBehaviour:
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
 --- !u!114 &1246412982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246412978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de357df131b5d2941a7bc727ab798bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c3c3ac2562e984a4ab5bd1011a5ac23c, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &1246412983
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
