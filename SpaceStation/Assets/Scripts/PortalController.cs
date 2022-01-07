@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PortalController : MonoBehaviour
@@ -45,6 +44,8 @@ public class PortalController : MonoBehaviour
         StartCoroutine(TweenLightning(light, this.startRange));
         StartCoroutine(TweenScale(ForceField, startScale));
         isOn = true;
+
+        AkSoundEngine.PostEvent("Play_Portal", this.Portal);
     }
 
     public void Off()
@@ -53,6 +54,8 @@ public class PortalController : MonoBehaviour
         StartCoroutine(TweenLightning(light, 0f));
         StartCoroutine(TweenScale(ForceField, new Vector3(startScale.x, 0f, 0f)));
         isOn = false;
+
+        AkSoundEngine.PostEvent("Stop_Portal", this.Portal);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -77,6 +80,7 @@ public class PortalController : MonoBehaviour
             light.range = Mathf.Lerp(previousRange, targetRange, Mathf.SmoothStep(0.0f, 1.0f, time / this.TweenDuration));
             yield return 0;
         } while (time < this.TweenDuration);
+
         this.isDirty = false;
     }
 

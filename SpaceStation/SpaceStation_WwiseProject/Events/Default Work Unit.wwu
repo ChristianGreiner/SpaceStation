@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{410D4B51-F3F2-4780-9785-231BA397BF84}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{410D4B51-F3F2-4780-9785-231BA397BF84}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{410D4B51-F3F2-4780-9785-231BA397BF84}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Portal" ID="{5F6CCBB2-0A4A-48BA-8643-6ED4E49B60BA}">
+					<ChildrenList>
+						<Action Name="" ID="{812CF49E-5E2D-415F-93F0-C115DADCBDFE}" ShortID="539664422">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Portal" ID="{293277BF-ADE0-4F9D-B1AB-560751E6F6CE}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Portal" ID="{B9A22601-30BD-43EB-95D6-C63DD09567C9}">
+					<ChildrenList>
+						<Action Name="" ID="{2925F2B9-13C2-4E10-AB1F-91EC9D5371D7}" ShortID="454488965">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hum" ID="{9D0C1D38-8F48-4CE2-B772-E1B3651AF06C}">
+					<ChildrenList>
+						<Action Name="" ID="{93AE5CD5-8763-4D7F-9310-EF8794CF31CB}" ShortID="582953956">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hum" ID="{78F4FEA7-D3E2-4F32-8900-6E584123B10C}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

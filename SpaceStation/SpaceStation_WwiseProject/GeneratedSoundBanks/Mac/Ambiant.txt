@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2893555504	Play_Hum			\Default Work Unit\Play_Hum	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	675756521	Hum	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\SciFi-Hum-Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiant\Hum		4598848
+

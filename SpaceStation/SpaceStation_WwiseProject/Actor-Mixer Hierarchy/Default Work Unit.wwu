@@ -1,6 +1,232 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Footsteps" ID="{261323D6-1ED4-4E9A-93CA-BF6B042B3007}" ShortID="188219947">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Gravel" ID="{31C5BAB3-891F-4A04-BBB1-F60DD27AFB07}" ShortID="470353480">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="footstep_gravel_2" ID="{21FA5C21-7DD5-491C-B266-4E30019A4460}" ShortID="465699341">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_gravel_2" ID="{7BB90FC9-4638-4C22-96BF-4F5229255C47}">
+											<Language>SFX</Language>
+											<AudioFile>footstep_gravel_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="464673739"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_gravel_2" ID="{7BB90FC9-4638-4C22-96BF-4F5229255C47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_gravel_3" ID="{85529CF0-AB87-4F30-8258-0D8B3DD6505D}" ShortID="742953363">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_gravel_3" ID="{25794456-C963-4AC3-83DC-30283E378D72}">
+											<Language>SFX</Language>
+											<AudioFile>footstep_gravel_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="419414809"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_gravel_3" ID="{25794456-C963-4AC3-83DC-30283E378D72}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_gravel_4" ID="{C43BF66B-95AE-4045-80E3-AF321120FE4A}" ShortID="152389401">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_gravel_4" ID="{1992CE1F-3EE6-4D57-8F94-72EB78F949EF}">
+											<Language>SFX</Language>
+											<AudioFile>footstep_gravel_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="101268704"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_gravel_4" ID="{1992CE1F-3EE6-4D57-8F94-72EB78F949EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_gravel_5" ID="{ACEF1C84-155F-4A0E-8446-9818F40E61A9}" ShortID="372580366">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_gravel_5" ID="{77DCFE05-77C2-4F4A-A79C-7545441C5D96}">
+											<Language>SFX</Language>
+											<AudioFile>footstep_gravel_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="427441108"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_gravel_5" ID="{77DCFE05-77C2-4F4A-A79C-7545441C5D96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_gravel_1" ID="{AF89E96B-8A8E-482C-9B43-3CEAAC1AC26D}" ShortID="101739875">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_gravel_1" ID="{EE0905EE-FEE6-4AFC-83A1-A08A3C919F88}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="0.42505"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>footstep_gravel_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="543836028"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_gravel_1" ID="{EE0905EE-FEE6-4AFC-83A1-A08A3C919F88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="Portal" ID="{293277BF-ADE0-4F9D-B1AB-560751E6F6CE}" ShortID="533882606">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Portal" ID="{9F0A9951-404F-4FB2-B56D-CA8F32B93CC3}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="portal" ID="{9CDEA95E-C085-46AB-9BC8-0DD80B808339}">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="15"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>portal.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="998614657"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{3E80FEB5-E702-4CC0-AB71-4B8F3B645F90}"/>
+					</PositioningInfo>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="portal" ID="{9CDEA95E-C085-46AB-9BC8-0DD80B808339}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Ambiant" ID="{EE3511B9-9A53-4BB9-9229-46C123093BE0}" ShortID="580692729">
+					<ChildrenList>
+						<Sound Name="Hum" ID="{78F4FEA7-D3E2-4F32-8900-6E584123B10C}" ShortID="746331909">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-22</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SciFi-Hum-Loop" ID="{5073C804-F07D-4CCC-B2B6-386C22EC5AF8}">
+									<Language>SFX</Language>
+									<AudioFile>SciFi-Hum-Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="675756521"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SciFi-Hum-Loop" ID="{5073C804-F07D-4CCC-B2B6-386C22EC5AF8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

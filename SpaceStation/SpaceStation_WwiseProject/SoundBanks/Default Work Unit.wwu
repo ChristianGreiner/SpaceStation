@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{92C0ADD8-303E-42F5-880A-E1F3F5B2E72D}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{92C0ADD8-303E-42F5-880A-E1F3F5B2E72D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{92C0ADD8-303E-42F5-880A-E1F3F5B2E72D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Environment" ID="{267761C4-851A-4327-BE1F-33CFE92B2A57}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Dynamic" ID="{EB3A6D21-8F9E-41D2-9D7F-ABF13704119A}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Static" ID="{13875E42-ED64-4F9C-8E01-75A597315E3B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Portal" ID="{B9A22601-30BD-43EB-95D6-C63DD09567C9}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Portal" ID="{5F6CCBB2-0A4A-48BA-8643-6ED4E49B60BA}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambiant" ID="{9F87EF8F-CEDA-4E00-B945-CE2FA30C5704}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Hum" ID="{78F4FEA7-D3E2-4F32-8900-6E584123B10C}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Character" ID="{34C653B2-4B02-4696-B3F6-9C20C4A9F4B0}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -3,6 +3,11 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{9D40CB51-985B-4202-B31B-DA25C2BD1BD8}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="G:\Meine Ablage\HS Aalen Informatik\7. Semester (WS)\Audio- und Bildformate\Projekte\Projekt 3\Sounds\Static\"/>
+				<Property Name="Event Action List\{028A79B3-6865-4632-B30E-1DF41CAC0C80}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5F6CCBB2-0A4A-48BA-8643-6ED4E49B60BA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9D0C1D38-8F48-4CE2-B772-E1B3651AF06C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B9A22601-30BD-43EB-95D6-C63DD09567C9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
@@ -15,6 +20,9 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="0he0jajcE0yw+fLjTibYTw=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="xGF3JhqFJ0O+HzPP6SsqVyFtOuuej9JBnX+r8TcEEZpCXocTZO2cT44BdaWXMV47j++Hn9rOAE65Rc4vowxXBLJTxjQCS5ZGs/acIMSp9LA="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>

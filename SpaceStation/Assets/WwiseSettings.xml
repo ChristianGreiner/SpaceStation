@@ -9,8 +9,8 @@
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac />
-  <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise 2021.1.5.7749</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../SpaceStation_WwiseProject/SpaceStation_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseInstallationPathWindows>E:\SDKs\Audiokinetic\Wwise 2021.1.5.7749</WwiseInstallationPathWindows>
+  <WwiseProjectPath>../../SpaceStation/SpaceStation_WwiseProject/SpaceStation_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>
