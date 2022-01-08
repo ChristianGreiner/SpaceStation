@@ -13,13 +13,36 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_CONCRETE = 3285652911U;
+        static const AkUniqueID PLAY_GRAVEL = 2670075811U;
         static const AkUniqueID PLAY_HUM = 2893555504U;
+        static const AkUniqueID PLAY_METAL = 3199860711U;
+        static const AkUniqueID PLAY_MOTOR = 520985213U;
         static const AkUniqueID PLAY_PORTAL = 2424882924U;
+        static const AkUniqueID PLAY_ROBOT = 1985594942U;
         static const AkUniqueID PLAY_ROCKET_START = 3606185931U;
         static const AkUniqueID PLAY_ROCKET_STOP = 2818399593U;
+        static const AkUniqueID PLAY_SIGNAL = 4200648810U;
+        static const AkUniqueID PLAY_TRAIN = 163991396U;
         static const AkUniqueID STOP_PORTAL = 118760090U;
         static const AkUniqueID STOP_ROCKET = 3301881080U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEPS
+        {
+            static const AkUniqueID GROUP = 2385628198U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CONCRETE = 841620460U;
+                static const AkUniqueID GRAVEL = 2185786256U;
+                static const AkUniqueID METAL = 2473969246U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPS
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

@@ -1,7 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
 	118760090	Stop_Portal			\Default Work Unit\Stop_Portal	
+	520985213	Play_Motor			\Default Work Unit\Play_Motor	
 	2424882924	Play_Portal			\Default Work Unit\Play_Portal	
+	4200648810	Play_Signal			\Default Work Unit\Play_Signal	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	998614657	Portal	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\portal_517BDDFF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Portal		7861632
+	848855631	Motor	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\motor_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Statics\Motor		1331608
+	998614657	Portal	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\portal_517BDDFF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Statics\Portal		7861632
+	1022954869	Signal	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\signal_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Statics\Signal		933696
 

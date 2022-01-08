@@ -86,6 +86,83 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Robot" ID="{B25F5BFF-3287-4BDD-88DC-93A49E7249AA}">
+					<ChildrenList>
+						<Action Name="" ID="{4A55391C-1116-42B0-A613-25DC249C95B2}" ShortID="847665039">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot" ID="{4A7F1B54-8070-4319-AB6A-0C3B42958BFD}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Motor" ID="{60BFDF7B-086C-4371-B1FE-21BC1477CD88}">
+					<ChildrenList>
+						<Action Name="" ID="{E5AD0D56-C069-41E8-AF84-20C8C67B8B8D}" ShortID="723199507">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Motor" ID="{8A5E5063-C03E-4E9A-88AD-782A805092AA}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Train" ID="{BB1BFE95-14F5-424A-A9FB-D9C753743000}">
+					<ChildrenList>
+						<Action Name="" ID="{D98C991D-14A4-4BAD-8B3A-D5BB111FDC90}" ShortID="27722882">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Train" ID="{CDABF175-E07E-444B-BB40-D863AD96FDC3}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Signal" ID="{131C65EB-CA18-424A-BDE2-05A55AD45835}">
+					<ChildrenList>
+						<Action Name="" ID="{70DE199C-54E6-42CB-AA00-E5F4577E91BE}" ShortID="1009273957">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Signal" ID="{239D86FA-33F3-4D7E-AE47-1401847D857C}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gravel" ID="{76368BFE-C209-4A83-A0C4-89D6071029EE}">
+					<ChildrenList>
+						<Action Name="" ID="{A1E00E1D-8C3C-449B-898B-8AC8DE6E1815}" ShortID="274628419">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gravel" ID="{31C5BAB3-891F-4A04-BBB1-F60DD27AFB07}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Metal" ID="{5EC88CFC-6DCD-445C-B9E3-D6D2553B0B79}">
+					<ChildrenList>
+						<Action Name="" ID="{107049EB-037A-4914-AA87-B3D639A9C300}" ShortID="822870154">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal" ID="{86E73E54-873A-4E10-A980-E903329AB1D8}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Concrete" ID="{2A0E72AA-045A-4B4A-BED9-54ADCEFDE788}">
+					<ChildrenList>
+						<Action Name="" ID="{1D624AEB-5F7B-4835-AD37-619DAB03F78B}" ShortID="985230594">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Concrete" ID="{5FD68B90-DD58-43D2-97AF-E398556E8922}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

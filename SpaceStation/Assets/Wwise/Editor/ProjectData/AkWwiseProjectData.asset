@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d8adc0923e30f542880ae1f3f5b2e72d
     GuidInternal: 
-    m_lastTime: -8585600225972358854
+    m_lastTime: -8585599385632143127
     List:
     - name: Ambiant
       guid: 8fef879fdace004eb945ce2fa30c5704
@@ -150,8 +150,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 514b0d41f2f380479785231ba397bf84
     GuidInternal: 
-    m_lastTime: -8585600225799680879
+    m_lastTime: -8585599385632252826
     List:
+    - name: Play_Concrete
+      guid: aa720e2a5a044a4bbed954adcefde788
+      id: 3285652911
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Concrete
+        ObjectType: 3
+        guid: aa720e2a5a044a4bbed954adcefde788
+      Path: Events\Default Work Unit\Play_Concrete
+      maxAttenuation: 0
+      maxDuration: 0.536236
+      minDuration: 0.439478
+    - name: Play_Gravel
+      guid: fe8b367609c2834aa0c489d6071029ee
+      id: 2670075811
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Gravel
+        ObjectType: 3
+        guid: fe8b367609c2834aa0c489d6071029ee
+      Path: Events\Default Work Unit\Play_Gravel
+      maxAttenuation: 0
+      maxDuration: 0.489705
+      minDuration: 0.35517
     - name: Play_Hum
       guid: 381d0c9d488fe24cb772e1b3651af06c
       id: 2893555504
@@ -167,6 +201,40 @@ MonoBehaviour:
         guid: 381d0c9d488fe24cb772e1b3651af06c
       Path: Events\Default Work Unit\Play_Hum
       maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Metal
+      guid: fc8cc85ecd6d5c44b9e3d6d2553b0b79
+      id: 3199860711
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Metal
+        ObjectType: 3
+        guid: fc8cc85ecd6d5c44b9e3d6d2553b0b79
+      Path: Events\Default Work Unit\Play_Metal
+      maxAttenuation: 0
+      maxDuration: 0.506395
+      minDuration: 0.382744
+    - name: Play_Motor
+      guid: 7bdfbf606c087143b1fe21bc1477cd88
+      id: 520985213
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Motor
+        ObjectType: 3
+        guid: 7bdfbf606c087143b1fe21bc1477cd88
+      Path: Events\Default Work Unit\Play_Motor
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Play_Portal
@@ -186,6 +254,23 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
+    - name: Play_Robot
+      guid: ff5b5fb28732dd4b88dc93a49e7249aa
+      id: 1985594942
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Robot
+        ObjectType: 3
+        guid: ff5b5fb28732dd4b88dc93a49e7249aa
+      Path: Events\Default Work Unit\Play_Robot
+      maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Rocket_Start
       guid: 29e5a9e9e951f447827f28d79911683a
       id: 3606185931
@@ -200,7 +285,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 29e5a9e9e951f447827f28d79911683a
       Path: Events\Default Work Unit\Play_Rocket_Start
-      maxAttenuation: 70
+      maxAttenuation: 120
       maxDuration: 14.530612
       minDuration: 14.530612
     - name: Play_Rocket_Stop
@@ -217,9 +302,43 @@ MonoBehaviour:
         ObjectType: 3
         guid: ea13b1455c76d048a667c3eb0cb614b4
       Path: Events\Default Work Unit\Play_Rocket_Stop
-      maxAttenuation: 70
+      maxAttenuation: 120
       maxDuration: 14.530612
       minDuration: 14.530612
+    - name: Play_Signal
+      guid: eb651c1318ca4a42bde205a55ad45835
+      id: 4200648810
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Signal
+        ObjectType: 3
+        guid: eb651c1318ca4a42bde205a55ad45835
+      Path: Events\Default Work Unit\Play_Signal
+      maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Train
+      guid: 95fe1bbbf5144a42a9fbd9c753743000
+      id: 163991396
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Train
+        ObjectType: 3
+        guid: 95fe1bbbf5144a42a9fbd9c753743000
+      Path: Events\Default Work Unit\Play_Train
+      maxAttenuation: 80
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_Portal
       guid: 0126a2b9bd30eb4395d6c63dd09567c9
       id: 118760090
@@ -311,8 +430,74 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c27247128e1f124b81168a57b8022c95
     GuidInternal: 
-    m_lastTime: -8585616534831937052
-    List: []
+    m_lastTime: -8585599403558890670
+    List:
+    - name: Footsteps
+      guid: 22ebeab373b69e43b63ede7092e8c147
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c27247128e1f124b81168a57b8022c95
+      - ElementName: Footsteps
+        ObjectType: 11
+        guid: 22ebeab373b69e43b63ede7092e8c147
+      Path: Switches\Default Work Unit\Footsteps
+      values:
+      - name: Concrete
+        guid: 300b4049bbaa1b438bcd595db76a40db
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c27247128e1f124b81168a57b8022c95
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 22ebeab373b69e43b63ede7092e8c147
+        - ElementName: Concrete
+          ObjectType: 10
+          guid: 300b4049bbaa1b438bcd595db76a40db
+      - name: Gravel
+        guid: 889403f4779dc34dafff418862c0c062
+        id: 2185786256
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c27247128e1f124b81168a57b8022c95
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 22ebeab373b69e43b63ede7092e8c147
+        - ElementName: Gravel
+          ObjectType: 10
+          guid: 889403f4779dc34dafff418862c0c062
+      - name: Metal
+        guid: aa877c83e2aa724ba6d9d7784fc5e087
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c27247128e1f124b81168a57b8022c95
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 22ebeab373b69e43b63ede7092e8c147
+        - ElementName: Metal
+          ObjectType: 10
+          guid: aa877c83e2aa724ba6d9d7784fc5e087
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -328,7 +513,7 @@ MonoBehaviour:
     m_lastTime: -8585616534831937052
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000009600000097000000aa000000e4000000e5000000e6000000050100000601000011010000120100002301000027010000280100003d0100004201000043010000550100008a0100008b0100009601000097010000b0010000b1010000b7010000b8010000c3010000c4010000db010000dc010000dd010000de010000c0020000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000150000009600000097000000aa000000d5000000d6000000e4000000e5000000e6000000050100000601000011010000120100002301000027010000280100003d01000042010000430100005501000071010000720100008a0100008b0100009601000097010000b0010000b1010000b7010000b8010000c3010000c4010000db010000dc010000dd010000de010000c0020000430f0000440f0000c90f0000ca0f0000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

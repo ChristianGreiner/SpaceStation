@@ -4,17 +4,7 @@ using UnityEngine;
 
 public class RocketAPI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject Player;
 
     public void Land()
     {
@@ -25,5 +15,13 @@ public class RocketAPI : MonoBehaviour
     {
 
         AkSoundEngine.PostEvent("Play_Rocket_Start", this.gameObject);
+    }
+
+    public void ShakeCamera()
+    {
+        if (Vector3.Distance(Player.transform.position, transform.position) < 80f)
+        {
+            FindObjectOfType<CameraShaker>().Shake(3f);
+        }
     }
 }

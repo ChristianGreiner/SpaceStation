@@ -23,6 +23,9 @@ public class PlayerController : MonoBehaviour
     Vector2 currentMouseDelta = Vector2.zero;
     Vector2 currentMouseDeltaVelocity = Vector2.zero;
 
+    private float time = 0.0f;
+    public float interpolationPeriod = 0.15f;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -35,8 +38,46 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        time += Time.deltaTime;
+
+
         UpdateMouseLook();
         UpdateMovement();
+
+        if (time >= interpolationPeriod)
+        {
+            time = time - interpolationPeriod;
+            if (this.controller.velocity.magnitude > 0.5f)
+            {
+                CheckGround();
+            }
+        }
+    }
+
+    private void CheckGround()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(gameObject.transform.position, Vector3.down, out hit, 2f))
+        {
+            var tag = hit.transform.gameObject.tag;
+
+            Debug.Log(tag);
+            
+            if (tag == "Gravel")
+            {
+                AkSoundEngine.PostEvent("Play_Gravel", gameObject);
+            }
+
+            if (tag == "Metal")
+            {
+                AkSoundEngine.PostEvent("Play_Metal", gameObject);
+            }
+
+            if (tag == "Concrete")
+            {
+                AkSoundEngine.PostEvent("Play_Concrete", gameObject);
+            }
+        }
     }
 
     void UpdateMouseLook()

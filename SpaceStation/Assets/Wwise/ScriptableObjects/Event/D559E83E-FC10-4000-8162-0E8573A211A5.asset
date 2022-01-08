@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c90dcea7e5330554db9d1a6062479b79, type: 3}
-  m_Name: 45B113EA-765C-48D0-A667-C3EB0CB614B4
+  m_Name: D559E83E-FC10-4000-8162-0E8573A211A5
   m_EditorClassIdentifier: 
-  objectName: Play_Rocket_Stop
-  id: 2818399593
-  guid: 45B113EA-765C-48D0-A667-C3EB0CB614B4
+  objectName: Stop_Rocket_Stop
+  id: 2378439735
+  guid: D559E83E-FC10-4000-8162-0E8573A211A5
