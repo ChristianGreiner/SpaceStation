@@ -35,6 +35,11 @@ public class PortalController : MonoBehaviour
             {
                 On();
             }
+
+            // player
+            var player = GameObject.FindGameObjectWithTag("Player");
+            if (player)
+                AkSoundEngine.PostEvent("Play_Interact", player.gameObject);
         }
     }
 

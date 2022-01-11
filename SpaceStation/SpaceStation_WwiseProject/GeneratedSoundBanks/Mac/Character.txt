@@ -12,19 +12,19 @@ Switch	ID	Name	Switch Group			Notes
 	2473969246	Metal	Footsteps			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	101268704	footstep_gravel_4	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_gravel_4_98ADED75.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\footstep_gravel_4		39074
-	225198790	footsteps_concrete_3	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footsteps_concrete_3_40990B6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\footsteps_concrete_3		34702
-	232930070	footsteps_concrete_5	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footsteps_concrete_5_DF581B9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\footsteps_concrete_5		38334
-	321706195	footsteps_concrete_1	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footsteps_concrete_1_B04B352F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\footsteps_concrete_1		41052
+	101268704	footstep_gravel_4	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_gravel_4_5A025F69.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\footstep_gravel_4		39074
+	225198790	footsteps_concrete_3	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footsteps_concrete_3_933147FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\footsteps_concrete_3		34702
+	232930070	footsteps_concrete_5	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footsteps_concrete_5_7095D0EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\footsteps_concrete_5		38334
+	321706195	footsteps_concrete_1	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footsteps_concrete_1_715A4C46.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\footsteps_concrete_1		41052
 	365012518	footstep_metal_2	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_metal_2_4C1F2B81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Metal\footstep_metal_2		36942
-	373073479	footstep_metal_5	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_metal_5_2B1EFBE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Metal\footstep_metal_5		22488
-	419414809	footstep_gravel_3	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_gravel_3_47615EC9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\footstep_gravel_3		27808
-	427441108	footstep_gravel_5	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_gravel_5_F0D80BAB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\footstep_gravel_5		26266
-	464673739	footstep_gravel_2	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_gravel_2_8FA595EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\footstep_gravel_2		34066
-	496544982	footstep_metal_3	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_metal_3_606C7560.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Metal\footstep_metal_3		40948
-	543836028	footstep_gravel_1	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_gravel_1_44087EF9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\footstep_gravel_1		34704
-	596941173	footstep_metal_4	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_metal_4_791A0AA8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Metal\footstep_metal_4		38786
-	675303378	footstep_metal_1	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_metal_1_EDD65262.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Metal\footstep_metal_1		40246
-	826450298	footsteps_concrete_4	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footsteps_concrete_4_15ECDAEA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\footsteps_concrete_4		42140
-	1072967475	footsteps_concrete_2	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footsteps_concrete_2_D06D398A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\footsteps_concrete_2		36484
+	373073479	footstep_metal_5	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_metal_5_610F497C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Metal\footstep_metal_5		22488
+	419414809	footstep_gravel_3	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_gravel_3_AB149BCD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\footstep_gravel_3		27808
+	427441108	footstep_gravel_5	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_gravel_5_C37DAD9E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\footstep_gravel_5		26266
+	464673739	footstep_gravel_2	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_gravel_2_720990AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\footstep_gravel_2		34066
+	496544982	footstep_metal_3	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_metal_3_7D89184A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Metal\footstep_metal_3		40948
+	543836028	footstep_gravel_1	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_gravel_1_0A911470.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\footstep_gravel_1		34704
+	596941173	footstep_metal_4	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_metal_4_3543316B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Metal\footstep_metal_4		38786
+	675303378	footstep_metal_1	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_metal_1_6163D5E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Metal\footstep_metal_1		40246
+	826450298	footsteps_concrete_4	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footsteps_concrete_4_93D5822F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\footsteps_concrete_4		42140
+	1072967475	footsteps_concrete_2	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footsteps_concrete_2_7863E098.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\footsteps_concrete_2		36484
 

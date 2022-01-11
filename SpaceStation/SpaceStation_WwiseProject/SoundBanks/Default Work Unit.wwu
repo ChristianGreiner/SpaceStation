@@ -10,10 +10,12 @@
 				</SoundBank>
 				<SoundBank Name="Dynamic" ID="{EB3A6D21-8F9E-41D2-9D7F-ABF13704119A}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Door" ID="{67378936-3DF8-4003-9C03-29C7EFFA2763}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Train" ID="{BB1BFE95-14F5-424A-A9FB-D9C753743000}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Robot" ID="{4A7F1B54-8070-4319-AB6A-0C3B42958BFD}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Rocket" ID="{4435243D-8099-43DD-8D92-F9DFF246BC98}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Train" ID="{CDABF175-E07E-444B-BB40-D863AD96FDC3}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door" ID="{458AE8E7-69D6-46E5-9D0B-29BFAA585A4E}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Rocket_Start" ID="{060F892F-0DFF-47B3-9FF2-623E8A2E51C2}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Rocket_Stop" ID="{45B113EA-765C-48D0-A667-C3EB0CB614B4}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
@@ -32,6 +34,8 @@
 				</SoundBank>
 				<SoundBank Name="Ambiant" ID="{9F87EF8F-CEDA-4E00-B945-CE2FA30C5704}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Construction" ID="{EA2A63EB-3A66-42EF-B7C5-4A4ECFE8AA47}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Construction" ID="{1C25E303-F622-4445-B9A9-8E42EC4C2542}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Hum" ID="{78F4FEA7-D3E2-4F32-8900-6E584123B10C}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -42,6 +46,14 @@
 						<ObjectRef Name="Play_Metal" ID="{5EC88CFC-6DCD-445C-B9E3-D6D2553B0B79}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Gravel" ID="{76368BFE-C209-4A83-A0C4-89D6071029EE}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Concrete" ID="{2A0E72AA-045A-4B4A-BED9-54ADCEFDE788}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{39DEF9E6-E577-4869-8E53-19022BD135C4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Interact" ID="{8655A6DA-A680-4669-A722-F5886D1AF137}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interact" ID="{F8D4283D-3988-4E65-8F18-21F5FF2A8F4C}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

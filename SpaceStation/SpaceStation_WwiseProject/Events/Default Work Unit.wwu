@@ -163,6 +163,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Construction" ID="{1C25E303-F622-4445-B9A9-8E42EC4C2542}">
+					<ChildrenList>
+						<Action Name="" ID="{8CBCE33B-BF1B-4624-885E-39BDB31BC984}" ShortID="34211879">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Construction" ID="{EA2A63EB-3A66-42EF-B7C5-4A4ECFE8AA47}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Door" ID="{458AE8E7-69D6-46E5-9D0B-29BFAA585A4E}">
+					<ChildrenList>
+						<Action Name="" ID="{C7C43ED5-AF84-470E-935C-7ED336B16572}" ShortID="175423270">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door" ID="{67378936-3DF8-4003-9C03-29C7EFFA2763}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Interact" ID="{8655A6DA-A680-4669-A722-F5886D1AF137}">
+					<ChildrenList>
+						<Action Name="" ID="{E4DEFEF1-023C-4200-837E-43B5D739FD22}" ShortID="312447047">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Interact" ID="{F8D4283D-3988-4E65-8F18-21F5FF2A8F4C}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

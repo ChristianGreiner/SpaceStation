@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d8adc0923e30f542880ae1f3f5b2e72d
     GuidInternal: 
-    m_lastTime: -8585599385632143127
+    m_lastTime: -8585596724142534224
     List:
     - name: Ambiant
       guid: 8fef879fdace004eb945ce2fa30c5704
@@ -138,6 +138,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 425e871364ed9c4f8e0175a597315e3b
       Path: SoundBanks\Default Work Unit\Static
+    - name: UI
+      guid: e6f9de3977e569488e5319022bd135c4
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d8adc0923e30f542880ae1f3f5b2e72d
+      - ElementName: UI
+        ObjectType: 7
+        guid: e6f9de3977e569488e5319022bd135c4
+      Path: SoundBanks\Default Work Unit\UI
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -150,7 +164,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 514b0d41f2f380479785231ba397bf84
     GuidInternal: 
-    m_lastTime: -8585599385632252826
+    m_lastTime: -8585596724142803505
     List:
     - name: Play_Concrete
       guid: aa720e2a5a044a4bbed954adcefde788
@@ -167,8 +181,42 @@ MonoBehaviour:
         guid: aa720e2a5a044a4bbed954adcefde788
       Path: Events\Default Work Unit\Play_Concrete
       maxAttenuation: 0
-      maxDuration: 0.536236
-      minDuration: 0.439478
+      maxDuration: 0.477062
+      minDuration: 0.392725
+    - name: Play_Construction
+      guid: 03e3251c22f64544b9a98e42ec4c2542
+      id: 1598463209
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Construction
+        ObjectType: 3
+        guid: 03e3251c22f64544b9a98e42ec4c2542
+      Path: Events\Default Work Unit\Play_Construction
+      maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Door
+      guid: e7e88a45d669e5469d0b29bfaa585a4e
+      id: 2547633870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Door
+        ObjectType: 3
+        guid: e7e88a45d669e5469d0b29bfaa585a4e
+      Path: Events\Default Work Unit\Play_Door
+      maxAttenuation: 0
+      maxDuration: 1.35771
+      minDuration: 1.35771
     - name: Play_Gravel
       guid: fe8b367609c2834aa0c489d6071029ee
       id: 2670075811
@@ -184,8 +232,8 @@ MonoBehaviour:
         guid: fe8b367609c2834aa0c489d6071029ee
       Path: Events\Default Work Unit\Play_Gravel
       maxAttenuation: 0
-      maxDuration: 0.489705
-      minDuration: 0.35517
+      maxDuration: 0.44229
+      minDuration: 0.297079
     - name: Play_Hum
       guid: 381d0c9d488fe24cb772e1b3651af06c
       id: 2893555504
@@ -203,6 +251,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Interact
+      guid: daa6558680a66946a722f5886d1af137
+      id: 3621663528
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Interact
+        ObjectType: 3
+        guid: daa6558680a66946a722f5886d1af137
+      Path: Events\Default Work Unit\Play_Interact
+      maxAttenuation: 0
+      maxDuration: 0.289841
+      minDuration: 0.289841
     - name: Play_Metal
       guid: fc8cc85ecd6d5c44b9e3d6d2553b0b79
       id: 3199860711
@@ -218,8 +283,8 @@ MonoBehaviour:
         guid: fc8cc85ecd6d5c44b9e3d6d2553b0b79
       Path: Events\Default Work Unit\Play_Metal
       maxAttenuation: 0
-      maxDuration: 0.506395
-      minDuration: 0.382744
+      maxDuration: 0.463529
+      minDuration: 0.254247
     - name: Play_Motor
       guid: 7bdfbf606c087143b1fe21bc1477cd88
       id: 520985213
@@ -513,7 +578,7 @@ MonoBehaviour:
     m_lastTime: -8585616534831937052
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000150000009600000097000000aa000000d5000000d6000000e4000000e5000000e6000000050100000601000011010000120100002301000027010000280100003d01000042010000430100005501000071010000720100008a0100008b0100009601000097010000b0010000b1010000b7010000b8010000c3010000c4010000db010000dc010000dd010000de010000c0020000430f0000440f0000c90f0000ca0f0000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000018000000190000001a0000001b0000009600000097000000aa000000d5000000d6000000e4000000e5000000e6000000050100000601000011010000120100002301000027010000280100003d01000042010000430100005501000071010000720100008a0100008b0100009601000097010000b0010000b1010000b7010000b8010000c3010000c4010000db010000dc010000dd010000de010000c0020000430f0000440f0000c90f0000ca0f0000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -22,6 +22,11 @@ public class RocketController : MonoBehaviour
         if (canInteract && Input.GetKeyDown(KeyCode.E) && this.rocketAnimator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
         {
             this.rocketAnimator.SetTrigger("RocketStart");
+
+            // player
+            var player = GameObject.FindGameObjectWithTag("Player");
+            if (player)
+                AkSoundEngine.PostEvent("Play_Interact", player.gameObject);
         }
     }
 

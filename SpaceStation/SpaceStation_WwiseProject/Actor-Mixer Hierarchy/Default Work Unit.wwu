@@ -36,6 +36,46 @@
 								<ActiveSource Name="SciFi-Hum-Loop" ID="{5073C804-F07D-4CCC-B2B6-386C22EC5AF8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Construction" ID="{EA2A63EB-3A66-42EF-B7C5-4A4ECFE8AA47}" ShortID="1067864307">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>37</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Portal" ID="{9F0A9951-404F-4FB2-B56D-CA8F32B93CC3}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="construction" ID="{5DA18986-A1CC-4E2E-A6E4-5311FB4E9EE0}">
+									<Language>SFX</Language>
+									<AudioFile>construction.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="673884553"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="construction" ID="{5DA18986-A1CC-4E2E-A6E4-5311FB4E9EE0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Statics" ID="{4848B73F-A58E-492F-A998-15FBA427BF3F}" ShortID="252349591">
@@ -302,6 +342,36 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="train" ID="{805CAC0C-34A0-4BC6-A31F-96AEF90CDCE8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Door" ID="{67378936-3DF8-4003-9C03-29C7EFFA2763}" ShortID="834011710">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="door" ID="{F712DC9D-3CAC-4745-9431-1B1E9809B745}">
+									<Language>SFX</Language>
+									<AudioFile>door.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="449349405"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="door" ID="{F712DC9D-3CAC-4745-9431-1B1E9809B745}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -841,6 +911,40 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<Folder Name="UI" ID="{5278A27D-606C-4CFF-8147-0AC1CA3F4137}" ShortID="514117538">
+					<ChildrenList>
+						<Sound Name="Interact" ID="{F8D4283D-3988-4E65-8F18-21F5FF2A8F4C}" ShortID="889587644">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="confirmation" ID="{4E55650A-5759-4828-9D57-CABAACCDE5B4}">
+									<Language>SFX</Language>
+									<AudioFile>confirmation.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="216676103"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="confirmation" ID="{4E55650A-5759-4828-9D57-CABAACCDE5B4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

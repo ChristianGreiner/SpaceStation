@@ -31,6 +31,8 @@ public class DoorController : MonoBehaviour
             {
                 Open();
             }
+
+            AkSoundEngine.PostEvent("Play_Door", this.gameObject);
         }
     }
 

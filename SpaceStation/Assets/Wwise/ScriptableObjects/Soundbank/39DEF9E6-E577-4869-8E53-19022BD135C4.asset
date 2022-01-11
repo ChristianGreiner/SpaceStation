@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c90dcea7e5330554db9d1a6062479b79, type: 3}
-  m_Name: D559E83E-FC10-4000-8162-0E8573A211A5
+  m_Script: {fileID: 11500000, guid: df984ba2407e68942b14fa4348b39056, type: 3}
+  m_Name: 39DEF9E6-E577-4869-8E53-19022BD135C4
   m_EditorClassIdentifier: 
-  objectName: Stop_Rocket_Stop
-  id: 2378439735
-  guid: D559E83E-FC10-4000-8162-0E8573A211A5
+  objectName: UI
+  id: 1551306167
+  guid: 39DEF9E6-E577-4869-8E53-19022BD135C4

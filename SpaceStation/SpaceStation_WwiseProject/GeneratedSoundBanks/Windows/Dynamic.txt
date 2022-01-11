@@ -1,12 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	163991396	Play_Train			\Default Work Unit\Play_Train	
 	1985594942	Play_Robot			\Default Work Unit\Play_Robot	
+	2547633870	Play_Door			\Default Work Unit\Play_Door	
 	2818399593	Play_Rocket_Stop			\Default Work Unit\Play_Rocket_Stop	
 	3301881080	Stop_Rocket			\Default Work Unit\Stop_Rocket	
 	3606185931	Play_Rocket_Start			\Default Work Unit\Play_Rocket_Start	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	89312253	Rocket_Start	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Windows\SFX\rocket_start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Rocket_Start		2563264
+	449349405	Door	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Windows\SFX\door_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Door		239564
 	468301573	Robot	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Windows\SFX\robot_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Robot		811904
 	1014684926	rocket_stop	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Windows\SFX\rocket_stop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\rocket_stop		2563264
 	1017098228	Train	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Windows\SFX\train_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Train		1326860

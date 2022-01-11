@@ -11,21 +11,33 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="78669895" Language="SFX" Hash="2690787970">
+		<SoundBank Id="78669895" Language="SFX" Hash="323238685">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambiant</ObjectPath>
 			<ShortName>Ambiant</ShortName>
 			<Path>Ambiant.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1598463209" Name="Play_Construction" ObjectPath="\Events\Default Work Unit\Play_Construction" MaxAttenuation="50.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="673884553" Language="SFX">
+							<ShortName>construction.wav</ShortName>
+							<Path>SFX\construction_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2893555504" Name="Play_Hum" ObjectPath="\Events\Default Work Unit\Play_Hum" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="673884553" Language="SFX">
+					<ShortName>construction.wav</ShortName>
+					<Path>SFX\construction_D79FB2B7.wem</Path>
+				</File>
 				<File Id="675756521" Language="SFX">
 					<ShortName>SciFi-Hum-Loop.wav</ShortName>
 					<Path>SFX\SciFi-Hum-Loop_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="436743010" Language="SFX" Hash="3006904297">
+		<SoundBank Id="436743010" Language="SFX" Hash="189523118">
 			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
 			<ShortName>Character</ShortName>
 			<Path>Character.bnk</Path>
@@ -34,23 +46,23 @@
 					<IncludedMemoryFiles>
 						<File Id="225198790" Language="SFX">
 							<ShortName>footsteps_concrete_3.wav</ShortName>
-							<Path>SFX\footsteps_concrete_3_40990B6A.wem</Path>
+							<Path>SFX\footsteps_concrete_3_933147FA.wem</Path>
 						</File>
 						<File Id="232930070" Language="SFX">
 							<ShortName>footsteps_concrete_5.wav</ShortName>
-							<Path>SFX\footsteps_concrete_5_DF581B9B.wem</Path>
+							<Path>SFX\footsteps_concrete_5_7095D0EA.wem</Path>
 						</File>
 						<File Id="321706195" Language="SFX">
 							<ShortName>footsteps_concrete_1.wav</ShortName>
-							<Path>SFX\footsteps_concrete_1_B04B352F.wem</Path>
+							<Path>SFX\footsteps_concrete_1_715A4C46.wem</Path>
 						</File>
 						<File Id="826450298" Language="SFX">
 							<ShortName>footsteps_concrete_4.wav</ShortName>
-							<Path>SFX\footsteps_concrete_4_15ECDAEA.wem</Path>
+							<Path>SFX\footsteps_concrete_4_93D5822F.wem</Path>
 						</File>
 						<File Id="1072967475" Language="SFX">
 							<ShortName>footsteps_concrete_2.wav</ShortName>
-							<Path>SFX\footsteps_concrete_2_D06D398A.wem</Path>
+							<Path>SFX\footsteps_concrete_2_7863E098.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -58,23 +70,23 @@
 					<IncludedMemoryFiles>
 						<File Id="101268704" Language="SFX">
 							<ShortName>footstep_gravel_4.wav</ShortName>
-							<Path>SFX\footstep_gravel_4_98ADED75.wem</Path>
+							<Path>SFX\footstep_gravel_4_5A025F69.wem</Path>
 						</File>
 						<File Id="419414809" Language="SFX">
 							<ShortName>footstep_gravel_3.wav</ShortName>
-							<Path>SFX\footstep_gravel_3_47615EC9.wem</Path>
+							<Path>SFX\footstep_gravel_3_AB149BCD.wem</Path>
 						</File>
 						<File Id="427441108" Language="SFX">
 							<ShortName>footstep_gravel_5.wav</ShortName>
-							<Path>SFX\footstep_gravel_5_F0D80BAB.wem</Path>
+							<Path>SFX\footstep_gravel_5_C37DAD9E.wem</Path>
 						</File>
 						<File Id="464673739" Language="SFX">
 							<ShortName>footstep_gravel_2.wav</ShortName>
-							<Path>SFX\footstep_gravel_2_8FA595EB.wem</Path>
+							<Path>SFX\footstep_gravel_2_720990AC.wem</Path>
 						</File>
 						<File Id="543836028" Language="SFX">
 							<ShortName>footstep_gravel_1.wav</ShortName>
-							<Path>SFX\footstep_gravel_1_44087EF9.wem</Path>
+							<Path>SFX\footstep_gravel_1_0A911470.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -86,19 +98,19 @@
 						</File>
 						<File Id="373073479" Language="SFX">
 							<ShortName>footstep_metal_5.wav</ShortName>
-							<Path>SFX\footstep_metal_5_2B1EFBE2.wem</Path>
+							<Path>SFX\footstep_metal_5_610F497C.wem</Path>
 						</File>
 						<File Id="496544982" Language="SFX">
 							<ShortName>footstep_metal_3.wav</ShortName>
-							<Path>SFX\footstep_metal_3_606C7560.wem</Path>
+							<Path>SFX\footstep_metal_3_7D89184A.wem</Path>
 						</File>
 						<File Id="596941173" Language="SFX">
 							<ShortName>footstep_metal_4.wav</ShortName>
-							<Path>SFX\footstep_metal_4_791A0AA8.wem</Path>
+							<Path>SFX\footstep_metal_4_3543316B.wem</Path>
 						</File>
 						<File Id="675303378" Language="SFX">
 							<ShortName>footstep_metal_1.wav</ShortName>
-							<Path>SFX\footstep_metal_1_EDD65262.wem</Path>
+							<Path>SFX\footstep_metal_1_6163D5E8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -155,11 +167,40 @@
 				<Event Id="118760090" Name="Stop_Portal" ObjectPath="\Events\Default Work Unit\Stop_Portal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2223635772" Language="SFX" Hash="203929671">
+		<SoundBank Id="1551306167" Language="SFX" Hash="509356638">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3621663528" Name="Play_Interact" ObjectPath="\Events\Default Work Unit\Play_Interact" DurationType="OneShot" DurationMin="0.289841" DurationMax="0.289841">
+					<IncludedMemoryFiles>
+						<File Id="216676103" Language="SFX">
+							<ShortName>confirmation.wav</ShortName>
+							<Path>SFX\confirmation_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="216676103" Language="SFX">
+					<ShortName>confirmation.wav</ShortName>
+					<Path>SFX\confirmation_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2223635772" Language="SFX" Hash="3332687648">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dynamic</ObjectPath>
 			<ShortName>Dynamic</ShortName>
 			<Path>Dynamic.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2547633870" Name="Play_Door" ObjectPath="\Events\Default Work Unit\Play_Door" DurationType="OneShot" DurationMin="1.357710" DurationMax="1.357710">
+					<IncludedMemoryFiles>
+						<File Id="449349405" Language="SFX">
+							<ShortName>door.wav</ShortName>
+							<Path>SFX\door_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1985594942" Name="Play_Robot" ObjectPath="\Events\Default Work Unit\Play_Robot" MaxAttenuation="50.000000" DurationType="Infinite"/>
 				<Event Id="3606185931" Name="Play_Rocket_Start" ObjectPath="\Events\Default Work Unit\Play_Rocket_Start" MaxAttenuation="120.000000" DurationType="OneShot" DurationMin="14.530612" DurationMax="14.530612"/>
 				<Event Id="2818399593" Name="Play_Rocket_Stop" ObjectPath="\Events\Default Work Unit\Play_Rocket_Stop" MaxAttenuation="120.000000" DurationType="OneShot" DurationMin="14.530612" DurationMax="14.530612">
@@ -184,6 +225,10 @@
 				<File Id="89312253" Language="SFX">
 					<ShortName>rocket_start.wav</ShortName>
 					<Path>SFX\rocket_start_10C4C929.wem</Path>
+				</File>
+				<File Id="449349405" Language="SFX">
+					<ShortName>door.wav</ShortName>
+					<Path>SFX\door_10C4C929.wem</Path>
 				</File>
 				<File Id="468301573" Language="SFX">
 					<ShortName>robot.wav</ShortName>

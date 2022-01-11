@@ -14,8 +14,11 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_CONCRETE = 3285652911U;
+        static const AkUniqueID PLAY_CONSTRUCTION = 1598463209U;
+        static const AkUniqueID PLAY_DOOR = 2547633870U;
         static const AkUniqueID PLAY_GRAVEL = 2670075811U;
         static const AkUniqueID PLAY_HUM = 2893555504U;
+        static const AkUniqueID PLAY_INTERACT = 3621663528U;
         static const AkUniqueID PLAY_METAL = 3199860711U;
         static const AkUniqueID PLAY_MOTOR = 520985213U;
         static const AkUniqueID PLAY_PORTAL = 2424882924U;
@@ -52,6 +55,7 @@ namespace AK
         static const AkUniqueID DYNAMIC = 2223635772U;
         static const AkUniqueID ENVIRONMENT = 1229948536U;
         static const AkUniqueID STATIC = 1409504247U;
+        static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 
     namespace BUSSES
