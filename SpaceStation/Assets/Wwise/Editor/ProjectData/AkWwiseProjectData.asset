@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d8adc0923e30f542880ae1f3f5b2e72d
     GuidInternal: 
-    m_lastTime: -8585596724142534224
+    m_lastTime: -8585589094134837480
     List:
     - name: Ambiant
       guid: 8fef879fdace004eb945ce2fa30c5704
@@ -164,8 +164,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 514b0d41f2f380479785231ba397bf84
     GuidInternal: 
-    m_lastTime: -8585596724142803505
+    m_lastTime: -8585589094134974442
     List:
+    - name: Play_Computer
+      guid: 9dbf5886f1a8cc458054b89bc39fafbc
+      id: 1984956505
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_Computer
+        ObjectType: 3
+        guid: 9dbf5886f1a8cc458054b89bc39fafbc
+      Path: Events\Default Work Unit\Play_Computer
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Concrete
       guid: aa720e2a5a044a4bbed954adcefde788
       id: 3285652911
@@ -285,6 +302,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.463529
       minDuration: 0.254247
+    - name: Play_MetalWorkshop
+      guid: 1b6b5ca66bb8174896028c1a4e8eb1d6
+      id: 3921700580
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_MetalWorkshop
+        ObjectType: 3
+        guid: 1b6b5ca66bb8174896028c1a4e8eb1d6
+      Path: Events\Default Work Unit\Play_MetalWorkshop
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Motor
       guid: 7bdfbf606c087143b1fe21bc1477cd88
       id: 520985213
@@ -300,6 +334,23 @@ MonoBehaviour:
         guid: 7bdfbf606c087143b1fe21bc1477cd88
       Path: Events\Default Work Unit\Play_Motor
       maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_People
+      guid: 1ba381af3896054492446068f0070dcc
+      id: 2399894983
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_People
+        ObjectType: 3
+        guid: 1ba381af3896054492446068f0070dcc
+      Path: Events\Default Work Unit\Play_People
+      maxAttenuation: 60
       maxDuration: -1
       minDuration: -1
     - name: Play_Portal
@@ -578,7 +629,7 @@ MonoBehaviour:
     m_lastTime: -8585616534831937052
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000018000000190000001a0000001b0000009600000097000000aa000000d5000000d6000000e4000000e5000000e6000000050100000601000011010000120100002301000027010000280100003d01000042010000430100005501000071010000720100008a0100008b0100009601000097010000b0010000b1010000b7010000b8010000c3010000c4010000db010000dc010000dd010000de010000c0020000430f0000440f0000c90f0000ca0f0000
+  ExpandedWaapiItemIds: 0100000003000000040000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000018000000190000001a0000001b0000001c0000001d0000001e0000001f0000002500000026000000280000002a0000009600000097000000aa000000d5000000d6000000e4000000e5000000e6000000050100000601000011010000120100002301000027010000280100003d01000042010000430100005501000071010000720100008a0100008b0100009601000097010000b0010000b1010000b7010000b8010000c3010000c4010000db010000dc010000dd010000de010000c0020000430f0000440f0000c90f0000ca0f0000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -11,11 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="78669895" Language="SFX" Hash="323238685">
+		<SoundBank Id="78669895" Language="SFX" Hash="2252243094">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambiant</ObjectPath>
 			<ShortName>Ambiant</ShortName>
 			<Path>Ambiant.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1984956505" Name="Play_Computer" ObjectPath="\Events\Default Work Unit\Play_Computer" MaxAttenuation="60.000000" DurationType="Infinite"/>
 				<Event Id="1598463209" Name="Play_Construction" ObjectPath="\Events\Default Work Unit\Play_Construction" MaxAttenuation="50.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="673884553" Language="SFX">
@@ -25,8 +26,22 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2893555504" Name="Play_Hum" ObjectPath="\Events\Default Work Unit\Play_Hum" DurationType="Infinite"/>
+				<Event Id="3921700580" Name="Play_MetalWorkshop" ObjectPath="\Events\Default Work Unit\Play_MetalWorkshop" MaxAttenuation="60.000000" DurationType="Infinite"/>
+				<Event Id="2399894983" Name="Play_People" ObjectPath="\Events\Default Work Unit\Play_People" MaxAttenuation="60.000000" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="87572714" Language="SFX">
+					<ShortName>server-room.wav</ShortName>
+					<Path>SFX\server-room_D79FB2B7.wem</Path>
+				</File>
+				<File Id="295795884" Language="SFX">
+					<ShortName>second-inaudible-voice.wav</ShortName>
+					<Path>SFX\second-inaudible-voice_D79FB2B7.wem</Path>
+				</File>
+				<File Id="338145976" Language="SFX">
+					<ShortName>metal-workshop.wav</ShortName>
+					<Path>SFX\metal-workshop_D79FB2B7.wem</Path>
+				</File>
 				<File Id="673884553" Language="SFX">
 					<ShortName>construction.wav</ShortName>
 					<Path>SFX\construction_D79FB2B7.wem</Path>
@@ -130,7 +145,7 @@
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1645795224">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -167,7 +182,7 @@
 				<Event Id="118760090" Name="Stop_Portal" ObjectPath="\Events\Default Work Unit\Stop_Portal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1551306167" Language="SFX" Hash="509356638">
+		<SoundBank Id="1551306167" Language="SFX" Hash="3035461263">
 			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
@@ -188,7 +203,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="2223635772" Language="SFX" Hash="3332687648">
+		<SoundBank Id="2223635772" Language="SFX" Hash="1710633012">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dynamic</ObjectPath>
 			<ShortName>Dynamic</ShortName>
 			<Path>Dynamic.bnk</Path>

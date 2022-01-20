@@ -76,6 +76,134 @@
 								<ActiveSource Name="construction" ID="{5DA18986-A1CC-4E2E-A6E4-5311FB4E9EE0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="MetalWorkshop" ID="{17735D3E-D998-431B-B2BB-13F57FF5A120}" ShortID="184051295">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AmbiantMetal" ID="{4B7CBBCC-8C3E-4651-91E2-9324D0554B6F}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="metal-workshop" ID="{0B9DCC19-188F-4C04-822E-EA7B6844E9C1}">
+									<Language>SFX</Language>
+									<AudioFile>metal-workshop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="338145976"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{0EC50916-F298-4F57-8C81-D467951087EB}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-0.337837837837835"/>
+										<Property Name="PanY" Type="Real64" Value="-0.362318840579719"/>
+									</PropertyList>
+								</Panner>
+								<Position Name="" ID="{A5E74167-0D01-4695-BF27-293119BA48B4}"/>
+							</PositioningInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="metal-workshop" ID="{0B9DCC19-188F-4C04-822E-EA7B6844E9C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Computer" ID="{EBC4C8B1-14CF-45A0-9D95-8ADE3FA6A90D}" ShortID="1041678785">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AmbiantMetal" ID="{4B7CBBCC-8C3E-4651-91E2-9324D0554B6F}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="server-room" ID="{426B0C1C-1722-4F83-9A59-4FB78F1D0C6E}">
+									<Language>SFX</Language>
+									<AudioFile>server-room.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="87572714"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="server-room" ID="{426B0C1C-1722-4F83-9A59-4FB78F1D0C6E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="People" ID="{612E53D2-A947-4736-9222-981D988A0E23}" ShortID="951546536">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AmbiantMetal" ID="{4B7CBBCC-8C3E-4651-91E2-9324D0554B6F}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="second-inaudible-voice" ID="{0C344D63-743C-45C5-AF95-3A297DF9E0C1}">
+									<Language>SFX</Language>
+									<AudioFile>second-inaudible-voice.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="295795884"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="second-inaudible-voice" ID="{0C344D63-743C-45C5-AF95-3A297DF9E0C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Statics" ID="{4848B73F-A58E-492F-A998-15FBA427BF3F}" ShortID="252349591">
@@ -917,7 +1045,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-17</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

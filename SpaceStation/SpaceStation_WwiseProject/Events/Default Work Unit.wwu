@@ -196,6 +196,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MetalWorkshop" ID="{A65C6B1B-B86B-4817-9602-8C1A4E8EB1D6}">
+					<ChildrenList>
+						<Action Name="" ID="{8A6BFA9C-1B4A-410B-8F91-666F8CC0AFC1}" ShortID="122826615">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MetalWorkshop" ID="{17735D3E-D998-431B-B2BB-13F57FF5A120}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Computer" ID="{8658BF9D-A8F1-45CC-8054-B89BC39FAFBC}">
+					<ChildrenList>
+						<Action Name="" ID="{275A13E6-6A8B-48BB-9B20-1E0F35A79147}" ShortID="669299898">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Computer" ID="{EBC4C8B1-14CF-45A0-9D95-8ADE3FA6A90D}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_People" ID="{AF81A31B-9638-4405-9244-6068F0070DCC}">
+					<ChildrenList>
+						<Action Name="" ID="{8B126B39-B8A6-411A-A9E0-C5F5E7A65DB5}" ShortID="225475599">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="People" ID="{612E53D2-A947-4736-9222-981D988A0E23}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

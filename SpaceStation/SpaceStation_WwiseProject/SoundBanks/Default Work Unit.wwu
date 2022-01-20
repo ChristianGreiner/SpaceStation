@@ -35,7 +35,10 @@
 				<SoundBank Name="Ambiant" ID="{9F87EF8F-CEDA-4E00-B945-CE2FA30C5704}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Construction" ID="{EA2A63EB-3A66-42EF-B7C5-4A4ECFE8AA47}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MetalWorkshop" ID="{17735D3E-D998-431B-B2BB-13F57FF5A120}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Construction" ID="{1C25E303-F622-4445-B9A9-8E42EC4C2542}" WorkUnitID="{410D4B51-F3F2-4780-9785-231BA397BF84}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Computer" ID="{EBC4C8B1-14CF-45A0-9D95-8ADE3FA6A90D}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="People" ID="{612E53D2-A947-4736-9222-981D988A0E23}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Hum" ID="{78F4FEA7-D3E2-4F32-8900-6E584123B10C}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

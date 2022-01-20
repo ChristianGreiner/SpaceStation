@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_COMPUTER = 1984956505U;
         static const AkUniqueID PLAY_CONCRETE = 3285652911U;
         static const AkUniqueID PLAY_CONSTRUCTION = 1598463209U;
         static const AkUniqueID PLAY_DOOR = 2547633870U;
@@ -20,7 +21,9 @@ namespace AK
         static const AkUniqueID PLAY_HUM = 2893555504U;
         static const AkUniqueID PLAY_INTERACT = 3621663528U;
         static const AkUniqueID PLAY_METAL = 3199860711U;
+        static const AkUniqueID PLAY_METALWORKSHOP = 3921700580U;
         static const AkUniqueID PLAY_MOTOR = 520985213U;
+        static const AkUniqueID PLAY_PEOPLE = 2399894983U;
         static const AkUniqueID PLAY_PORTAL = 2424882924U;
         static const AkUniqueID PLAY_ROBOT = 1985594942U;
         static const AkUniqueID PLAY_ROCKET_START = 3606185931U;

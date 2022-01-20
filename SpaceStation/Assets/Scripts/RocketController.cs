@@ -7,7 +7,6 @@ public class RocketController : MonoBehaviour
     public GameObject Rocket;
 
     private Animator rocketAnimator;
-    private bool isFying;
     private bool canInteract;
 
     // Start is called before the first frame update
