@@ -337,6 +337,11 @@
 						<Sound Name="Rocket_Start" ID="{060F892F-0DFF-47B3-9FF2-623E8A2E51C2}" ShortID="629707232">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
