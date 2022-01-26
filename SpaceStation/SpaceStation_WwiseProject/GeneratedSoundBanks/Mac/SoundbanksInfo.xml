@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="78669895" Language="SFX" Hash="4034021025">
+		<SoundBank Id="78669895" Language="SFX" Hash="1424632718">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambiant</ObjectPath>
 			<ShortName>Ambiant</ShortName>
 			<Path>Ambiant.bnk</Path>
@@ -63,8 +63,11 @@
 					<Path>SFX\SciFi-Hum-Loop_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="2454089230" Name="PlayerInside" ObjectPath="\Game Parameters\Default Work Unit\PlayerInside"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="436743010" Language="SFX" Hash="2808161074">
+		<SoundBank Id="436743010" Language="SFX" Hash="189523118">
 			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
 			<ShortName>Character</ShortName>
 			<Path>Character.bnk</Path>
@@ -157,12 +160,12 @@
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3847445146">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2063916551">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1409504247" Language="SFX" Hash="3408122794">
+		<SoundBank Id="1409504247" Language="SFX" Hash="2452537924">
 			<ObjectPath>\SoundBanks\Default Work Unit\Static</ObjectPath>
 			<ShortName>Static</ShortName>
 			<Path>Static.bnk</Path>
@@ -194,7 +197,7 @@
 				<Event Id="118760090" Name="Stop_Portal" ObjectPath="\Events\Default Work Unit\Stop_Portal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1551306167" Language="SFX" Hash="441129830">
+		<SoundBank Id="1551306167" Language="SFX" Hash="3147335199">
 			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
@@ -215,7 +218,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="2223635772" Language="SFX" Hash="1179210133">
+		<SoundBank Id="2223635772" Language="SFX" Hash="534787550">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dynamic</ObjectPath>
 			<ShortName>Dynamic</ShortName>
 			<Path>Dynamic.bnk</Path>

@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        AkSoundEngine.SetRTPCValue("PlayerInside", 80);
         controller = GetComponent<CharacterController>();
         if (lockCursor)
         {
@@ -60,9 +61,6 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(gameObject.transform.position, Vector3.down, out hit, 2f))
         {
             var tag = hit.transform.gameObject.tag;
-
-            Debug.Log(tag);
-            
             if (tag == "Gravel")
             {
                 AkSoundEngine.PostEvent("Play_Gravel", gameObject);

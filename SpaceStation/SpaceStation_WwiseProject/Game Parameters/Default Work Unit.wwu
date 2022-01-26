@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{928B7305-CEE3-4C1D-B975-591865B479FA}" SchemaVersion="103">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{928B7305-CEE3-4C1D-B975-591865B479FA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{928B7305-CEE3-4C1D-B975-591865B479FA}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="PlayerInside" ID="{C18D1091-7025-43D0-9AE0-46036D206C2B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="48"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="27"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

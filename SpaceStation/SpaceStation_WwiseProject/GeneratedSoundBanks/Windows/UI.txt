@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3621663528	Play_Interact			\Default Work Unit\Play_Interact	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	216676103	Interact	C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Windows\SFX\confirmation_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Interact		25628
+	216676103	Interact	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Windows\SFX\confirmation_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Interact		25628
 

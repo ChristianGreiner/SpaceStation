@@ -13,6 +13,34 @@
 									</ValueList>
 								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{3E552FC7-72EA-40C1-BB9C-546D375DEE8B}" ShortID="162933069">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PlayerInside" ID="{C18D1091-7025-43D0-9AE0-46036D206C2B}" WorkUnitID="{928B7305-CEE3-4C1D-B975-591865B479FA}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B06791B1-E8B7-40B1-9F75-C8B32DFADFA1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
 										<Value>-180</Value>
@@ -300,6 +328,34 @@
 									</ValueList>
 								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{3A88DE51-1473-44B3-91C0-B73EF4E5ADD2}" ShortID="1005253733">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PlayerInside" ID="{C18D1091-7025-43D0-9AE0-46036D206C2B}" WorkUnitID="{928B7305-CEE3-4C1D-B975-591865B479FA}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{ECA79F3B-166F-433E-8A47-3DFFAF83FD46}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-18.86082</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-0.02066</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
 										<Value>-80</Value>
