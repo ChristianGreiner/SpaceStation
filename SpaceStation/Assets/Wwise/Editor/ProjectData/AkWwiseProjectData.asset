@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 5826691114316e4ca713db71a06932b8
     GuidInternal: 
-    m_lastTime: -8585616534831937052
+    m_lastTime: -8585622670983700972
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 40f617c310fff2478d3d68a5823429d6
     GuidInternal: 
-    m_lastTime: -8585616534831986918
+    m_lastTime: -8585622670985151651
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d8adc0923e30f542880ae1f3f5b2e72d
     GuidInternal: 
-    m_lastTime: -8585589094134837480
+    m_lastTime: -8585585634700795713
     List:
     - name: Ambiant
       guid: 8fef879fdace004eb945ce2fa30c5704
@@ -164,7 +164,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 514b0d41f2f380479785231ba397bf84
     GuidInternal: 
-    m_lastTime: -8585589094134974442
+    m_lastTime: -8585585634701186762
     List:
     - name: Play_Computer
       guid: 9dbf5886f1a8cc458054b89bc39fafbc
@@ -268,6 +268,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_HumMono
+      guid: 6df63ba4b6a5564f9bb8d7eccd193166
+      id: 2378978381
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_HumMono
+        ObjectType: 3
+        guid: 6df63ba4b6a5564f9bb8d7eccd193166
+      Path: Events\Default Work Unit\Play_HumMono
+      maxAttenuation: 0
+      maxDuration: 25.224
+      minDuration: 25.224
     - name: Play_Interact
       guid: daa6558680a66946a722f5886d1af137
       id: 3621663528
@@ -402,8 +419,8 @@ MonoBehaviour:
         guid: 29e5a9e9e951f447827f28d79911683a
       Path: Events\Default Work Unit\Play_Rocket_Start
       maxAttenuation: 120
-      maxDuration: 14.530612
-      minDuration: 14.530612
+      maxDuration: 16.31006
+      minDuration: 16.31006
     - name: Play_Rocket_Stop
       guid: ea13b1455c76d048a667c3eb0cb614b4
       id: 2818399593
@@ -452,7 +469,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 95fe1bbbf5144a42a9fbd9c753743000
       Path: Events\Default Work Unit\Play_Train
-      maxAttenuation: 80
+      maxAttenuation: 130
       maxDuration: -1
       minDuration: -1
     - name: Stop_Portal
@@ -518,7 +535,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 05738b92e3ce1d4cb975591865b479fa
     GuidInternal: 
-    m_lastTime: -8585616534831996890
+    m_lastTime: -8585622670984510203
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -532,7 +549,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ed25882215c0c048b4911a7a02538c1f
     GuidInternal: 
-    m_lastTime: -8585616534831947023
+    m_lastTime: -8585622670984949030
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -546,7 +563,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c27247128e1f124b81168a57b8022c95
     GuidInternal: 
-    m_lastTime: -8585599403558890670
+    m_lastTime: -8585585670061623138
     List:
     - name: Footsteps
       guid: 22ebeab373b69e43b63ede7092e8c147
@@ -626,10 +643,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 1ab81e5c9787b14284e3c4c75c311f14
     GuidInternal: 
-    m_lastTime: -8585616534831937052
+    m_lastTime: -8585622670984340325
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000003000000040000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000018000000190000001a0000001b0000001c0000001d0000001e0000001f0000002500000026000000280000002a0000009600000097000000aa000000d5000000d6000000e4000000e5000000e6000000050100000601000011010000120100002301000027010000280100003d01000042010000430100005501000071010000720100008a0100008b0100009601000097010000b0010000b1010000b7010000b8010000c3010000c4010000db010000dc010000dd010000de010000c0020000430f0000440f0000c90f0000ca0f0000
+  ExpandedWaapiItemIds: 05000000060000001d0000001e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

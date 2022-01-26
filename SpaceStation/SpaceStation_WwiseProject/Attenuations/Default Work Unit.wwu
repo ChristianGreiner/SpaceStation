@@ -169,7 +169,7 @@
 				</Attenuation>
 				<Attenuation Name="Train" ID="{6DCBFCCE-2085-4D0E-A5FE-08786D7B02CD}" ShortID="833933887">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="80"/>
+						<Property Name="RadiusMax" Type="Real64" Value="130"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -185,7 +185,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>80</XPos>
+											<XPos>130</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

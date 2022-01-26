@@ -229,6 +229,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_HumMono" ID="{A43BF66D-A5B6-4F56-9BB8-D7ECCD193166}">
+					<ChildrenList>
+						<Action Name="" ID="{A086C331-706B-4722-B5F4-534C2EA793B8}" ShortID="842286196">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HumMono" ID="{617AB2DF-9414-4E36-97F0-EA56A1F15CE3}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

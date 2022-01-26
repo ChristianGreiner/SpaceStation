@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="78669895" Language="SFX" Hash="2252243094">
+		<SoundBank Id="78669895" Language="SFX" Hash="4034021025">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambiant</ObjectPath>
 			<ShortName>Ambiant</ShortName>
 			<Path>Ambiant.bnk</Path>
@@ -26,6 +26,14 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2893555504" Name="Play_Hum" ObjectPath="\Events\Default Work Unit\Play_Hum" DurationType="Infinite"/>
+				<Event Id="2378978381" Name="Play_HumMono" ObjectPath="\Events\Default Work Unit\Play_HumMono" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="517424671" Language="SFX">
+							<ShortName>ambiant_mono.wav</ShortName>
+							<Path>SFX\ambiant_mono_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3921700580" Name="Play_MetalWorkshop" ObjectPath="\Events\Default Work Unit\Play_MetalWorkshop" MaxAttenuation="60.000000" DurationType="Infinite"/>
 				<Event Id="2399894983" Name="Play_People" ObjectPath="\Events\Default Work Unit\Play_People" MaxAttenuation="60.000000" DurationType="Infinite"/>
 			</IncludedEvents>
@@ -42,6 +50,10 @@
 					<ShortName>metal-workshop.wav</ShortName>
 					<Path>SFX\metal-workshop_D79FB2B7.wem</Path>
 				</File>
+				<File Id="517424671" Language="SFX">
+					<ShortName>ambiant_mono.wav</ShortName>
+					<Path>SFX\ambiant_mono_D79FB2B7.wem</Path>
+				</File>
 				<File Id="673884553" Language="SFX">
 					<ShortName>construction.wav</ShortName>
 					<Path>SFX\construction_D79FB2B7.wem</Path>
@@ -52,7 +64,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="436743010" Language="SFX" Hash="189523118">
+		<SoundBank Id="436743010" Language="SFX" Hash="2808161074">
 			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
 			<ShortName>Character</ShortName>
 			<Path>Character.bnk</Path>
@@ -145,12 +157,12 @@
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1645795224">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3847445146">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1409504247" Language="SFX" Hash="1186921290">
+		<SoundBank Id="1409504247" Language="SFX" Hash="3408122794">
 			<ObjectPath>\SoundBanks\Default Work Unit\Static</ObjectPath>
 			<ShortName>Static</ShortName>
 			<Path>Static.bnk</Path>
@@ -182,7 +194,7 @@
 				<Event Id="118760090" Name="Stop_Portal" ObjectPath="\Events\Default Work Unit\Stop_Portal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1551306167" Language="SFX" Hash="3035461263">
+		<SoundBank Id="1551306167" Language="SFX" Hash="441129830">
 			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
@@ -203,7 +215,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="2223635772" Language="SFX" Hash="1710633012">
+		<SoundBank Id="2223635772" Language="SFX" Hash="1179210133">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dynamic</ObjectPath>
 			<ShortName>Dynamic</ShortName>
 			<Path>Dynamic.bnk</Path>
@@ -217,7 +229,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1985594942" Name="Play_Robot" ObjectPath="\Events\Default Work Unit\Play_Robot" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="3606185931" Name="Play_Rocket_Start" ObjectPath="\Events\Default Work Unit\Play_Rocket_Start" MaxAttenuation="120.000000" DurationType="OneShot" DurationMin="14.530612" DurationMax="14.530612"/>
+				<Event Id="3606185931" Name="Play_Rocket_Start" ObjectPath="\Events\Default Work Unit\Play_Rocket_Start" MaxAttenuation="120.000000" DurationType="OneShot" DurationMin="16.310061" DurationMax="16.310061"/>
 				<Event Id="2818399593" Name="Play_Rocket_Stop" ObjectPath="\Events\Default Work Unit\Play_Rocket_Stop" MaxAttenuation="120.000000" DurationType="OneShot" DurationMin="14.530612" DurationMax="14.530612">
 					<IncludedMemoryFiles>
 						<File Id="1014684926" Language="SFX">
@@ -226,7 +238,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="163991396" Name="Play_Train" ObjectPath="\Events\Default Work Unit\Play_Train" MaxAttenuation="80.000000" DurationType="Infinite">
+				<Event Id="163991396" Name="Play_Train" ObjectPath="\Events\Default Work Unit\Play_Train" MaxAttenuation="130.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="1017098228" Language="SFX">
 							<ShortName>train.wav</ShortName>
