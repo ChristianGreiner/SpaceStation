@@ -49,7 +49,7 @@
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -143,6 +143,9 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
 								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="High_Freq_Cut_5" ID="{604A4C00-7E8F-4859-BF24-F49D8C82555F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
 								</Reference>
@@ -180,11 +183,6 @@
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -231,6 +229,11 @@
 									</ValueList>
 								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-250</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -284,7 +287,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="AmbiantMetal" ID="{4B7CBBCC-8C3E-4651-91E2-9324D0554B6F}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
+									<ObjectRef Name="People" ID="{FDF5126D-05A8-481E-A9FF-221B200E2959}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
@@ -518,10 +521,33 @@
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="1"/>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="CenterPercentage" Type="int32">
-									<ValueList>
-										<Value>52</Value>
-									</ValueList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{1A34E03D-9755-41F4-896C-30E4086835F2}" ShortID="770056697">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PlayerInside" ID="{C18D1091-7025-43D0-9AE0-46036D206C2B}" WorkUnitID="{928B7305-CEE3-4C1D-B975-591865B479FA}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{875AE223-7E9B-4662-8946-FBCB9615A3A8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -549,6 +575,9 @@
 							<PositioningInfo>
 								<Panner Name="" ID="{292AE947-CF04-4AF5-BE92-31D6EDBFF4E0}"/>
 								<Position Name="" ID="{F1D5E5C5-DA45-45DF-A044-6F7BA213A9B1}">
+									<PropertyList>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+									</PropertyList>
 									<ChildrenList>
 										<Path2D Name="FlyBy_Path" ID="{E5EE6526-12A0-463B-AFAA-8F6D047E64FC}">
 											<PropertyList>
@@ -556,14 +585,52 @@
 											</PropertyList>
 											<PointList>
 												<Point>
-													<XPos>92.38579</XPos>
-													<YPos>0.28248</YPos>
+													<XPos>100</XPos>
+													<YPos>2.3933</YPos>
 													<Flags>12</Flags>
 													<Time>0</Time>
 												</Point>
 												<Point>
-													<XPos>-85.27918</XPos>
-													<YPos>-0</YPos>
+													<XPos>-100</XPos>
+													<YPos>0.26385</YPos>
+													<Flags>0</Flags>
+													<Time>10000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="FlyBy_Path_01" ID="{2C3087D9-FB83-408D-942F-038D29FB5BCB}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="10000"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>1.07239</XPos>
+													<YPos>100</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>0.536193029490619</XPos>
+													<YPos>-97.8891820580475</YPos>
+													<Flags>0</Flags>
+													<Time>10000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="FlyBy_Path_02" ID="{58C530D1-692D-40A7-9B75-C7DA9C408127}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="10000"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-100</XPos>
+													<YPos>100</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>100</XPos>
+													<YPos>-100</YPos>
 													<Flags>0</Flags>
 													<Time>10000</Time>
 												</Point>
@@ -612,6 +679,12 @@
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Boost_3dB_100Hz" ID="{3EA7C9BD-6F9A-4000-A227-F86B5B4328EE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Boost_3dB_100Hz" ID="{3EA7C9BD-6F9A-4000-A227-F86B5B4328EE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C317F640-FF10-47F2-8D3D-68A5823429D6}"/>
@@ -748,11 +821,6 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -852,7 +920,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Portal" ID="{9F0A9951-404F-4FB2-B56D-CA8F32B93CC3}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
+									<ObjectRef Name="Robot" ID="{77027928-2C46-476D-91CF-C1C9D920E748}" WorkUnitID="{3522A529-45DF-4B93-8BB6-FF5A569EF26F}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3A18D27-4375-4092-B96E-2125901E8BCE}"/>
@@ -886,7 +954,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -936,7 +1004,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1464,6 +1532,9 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{D694AB5A-7514-4A7F-8455-0B9CC414C596}"/>
+					</PositioningInfo>
 					<ObjectLists/>
 					<GroupingInfo>
 						<GroupingBehaviorList>

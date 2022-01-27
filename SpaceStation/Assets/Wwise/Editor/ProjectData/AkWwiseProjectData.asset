@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 5826691114316e4ca713db71a06932b8
     GuidInternal: 
-    m_lastTime: -8585616534831937052
+    m_lastTime: -8585622670983700972
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 40f617c310fff2478d3d68a5823429d6
     GuidInternal: 
-    m_lastTime: -8585616534831986918
+    m_lastTime: -8585622670985151651
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d8adc0923e30f542880ae1f3f5b2e72d
     GuidInternal: 
-    m_lastTime: -8585583221350633523
+    m_lastTime: -8585583209401831569
     List:
     - name: Ambiant
       guid: 8fef879fdace004eb945ce2fa30c5704
@@ -164,7 +164,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 514b0d41f2f380479785231ba397bf84
     GuidInternal: 
-    m_lastTime: -8585583221350772732
+    m_lastTime: -8585583209417545908
     List:
     - name: Play_Computer
       guid: 9dbf5886f1a8cc458054b89bc39fafbc
@@ -384,7 +384,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1ba381af3896054492446068f0070dcc
       Path: Events\Default Work Unit\Play_People
-      maxAttenuation: 60
+      maxAttenuation: 20
       maxDuration: -1
       minDuration: -1
     - name: Play_Portal
@@ -418,7 +418,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ff5b5fb28732dd4b88dc93a49e7249aa
       Path: Events\Default Work Unit\Play_Robot
-      maxAttenuation: 50
+      maxAttenuation: 20
       maxDuration: -1
       minDuration: -1
     - name: Play_Rocket_Start
@@ -435,7 +435,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 29e5a9e9e951f447827f28d79911683a
       Path: Events\Default Work Unit\Play_Rocket_Start
-      maxAttenuation: 120
+      maxAttenuation: 140
       maxDuration: 16.31006
       minDuration: 16.31006
     - name: Play_Rocket_Stop
@@ -452,7 +452,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ea13b1455c76d048a667c3eb0cb614b4
       Path: Events\Default Work Unit\Play_Rocket_Stop
-      maxAttenuation: 120
+      maxAttenuation: 140
       maxDuration: 14.530612
       minDuration: 14.530612
     - name: Play_Signal
@@ -486,7 +486,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 95fe1bbbf5144a42a9fbd9c753743000
       Path: Events\Default Work Unit\Play_Train
-      maxAttenuation: 130
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: Stop_Portal
@@ -552,7 +552,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 05738b92e3ce1d4cb975591865b479fa
     GuidInternal: 
-    m_lastTime: -8585584037866296876
+    m_lastTime: -8585583209417545908
     List:
     - name: PlayerInside
       guid: 91108dc12570d0439ae046036d206c2b
@@ -580,7 +580,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ed25882215c0c048b4911a7a02538c1f
     GuidInternal: 
-    m_lastTime: -8585616534831947023
+    m_lastTime: -8585622670984949030
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -594,7 +594,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c27247128e1f124b81168a57b8022c95
     GuidInternal: 
-    m_lastTime: -8585599403558890670
+    m_lastTime: -8585585670061623138
     List:
     - name: Footsteps
       guid: 22ebeab373b69e43b63ede7092e8c147
@@ -674,10 +674,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 1ab81e5c9787b14284e3c4c75c311f14
     GuidInternal: 
-    m_lastTime: -8585616534831937052
+    m_lastTime: -8585622670984340325
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0300000006000000070000001f000000200000002c000000
+  ExpandedWaapiItemIds: 05000000060000001d0000001f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

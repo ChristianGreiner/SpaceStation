@@ -10,9 +10,9 @@ Effect plug-ins	ID	Name	Type				Notes
 	2547645744	Boost_3dB_100Hz	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	89312253	Rocket_Start	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\rocket_start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Rocket_Start		2563264
-	449349405	Door	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\door_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Door		239564
-	468301573	Robot	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\robot_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Robot		811904
-	1014684926	rocket_stop	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\rocket_stop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\rocket_stop		2563264
-	1017098228	Train	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\train_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Train		1326860
+	89312253	Rocket_Start	C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\rocket_start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Rocket_Start		2563264
+	449349405	Door	C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\door_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Door		239564
+	468301573	Robot	C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\robot_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Robot		811904
+	1014684926	rocket_stop	C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\rocket_stop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\rocket_stop		2563264
+	1017098228	Train	C:\Users\Christian\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\train_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic\Train		1326860
 
