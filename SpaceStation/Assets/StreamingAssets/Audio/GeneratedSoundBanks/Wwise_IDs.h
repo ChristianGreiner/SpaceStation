@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLAY_CONCRETE = 3285652911U;
         static const AkUniqueID PLAY_CONSTRUCTION = 1598463209U;
         static const AkUniqueID PLAY_DOOR = 2547633870U;
+        static const AkUniqueID PLAY_FLYBY = 1957839894U;
         static const AkUniqueID PLAY_GRAVEL = 2670075811U;
         static const AkUniqueID PLAY_HUM = 2893555504U;
         static const AkUniqueID PLAY_HUMMONO = 2378978381U;

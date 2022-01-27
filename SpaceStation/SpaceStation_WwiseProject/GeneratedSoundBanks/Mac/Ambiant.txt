@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1598463209	Play_Construction			\Default Work Unit\Play_Construction	
+	1957839894	Play_FlyBy			\Default Work Unit\Play_FlyBy	
 	1984956505	Play_Computer			\Default Work Unit\Play_Computer	
 	2378978381	Play_HumMono			\Default Work Unit\Play_HumMono	
 	2399894983	Play_People			\Default Work Unit\Play_People	
@@ -20,4 +21,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	517424671	HumMono	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\ambiant_mono_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiant\HumMono		2421568
 	673884553	Construction	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\construction_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiant\Construction		6535488
 	675756521	Hum	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\SciFi-Hum-Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiant\Hum		4598848
+	886064189	FlyBy	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\spaceship-flyby_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiant\FlyBy		921664
 

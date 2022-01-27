@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d8adc0923e30f542880ae1f3f5b2e72d
     GuidInternal: 
-    m_lastTime: -8585584056120021590
+    m_lastTime: -8585583221350633523
     List:
     - name: Ambiant
       guid: 8fef879fdace004eb945ce2fa30c5704
@@ -164,7 +164,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 514b0d41f2f380479785231ba397bf84
     GuidInternal: 
-    m_lastTime: -8585584056129800769
+    m_lastTime: -8585583221350772732
     List:
     - name: Play_Computer
       guid: 9dbf5886f1a8cc458054b89bc39fafbc
@@ -234,6 +234,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.35771
       minDuration: 1.35771
+    - name: Play_FlyBy
+      guid: 45c92a752e4efd448be9c72bf0192840
+      id: 1957839894
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 514b0d41f2f380479785231ba397bf84
+      - ElementName: Play_FlyBy
+        ObjectType: 3
+        guid: 45c92a752e4efd448be9c72bf0192840
+      Path: Events\Default Work Unit\Play_FlyBy
+      maxAttenuation: 0
+      maxDuration: 10.448979
+      minDuration: 10.448979
     - name: Play_Gravel
       guid: fe8b367609c2834aa0c489d6071029ee
       id: 2670075811

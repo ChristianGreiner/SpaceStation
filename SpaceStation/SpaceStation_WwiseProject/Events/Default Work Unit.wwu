@@ -240,6 +240,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_FlyBy" ID="{752AC945-4E2E-44FD-8BE9-C72BF0192840}">
+					<ChildrenList>
+						<Action Name="" ID="{DEF76739-3639-4046-B4A9-A389074AB49A}" ShortID="990569252">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FlyBy" ID="{B3BBF364-BB3E-4363-A28E-BB2B50FEF632}" WorkUnitID="{F1F3533E-0948-4F3F-A311-2427B5221CC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

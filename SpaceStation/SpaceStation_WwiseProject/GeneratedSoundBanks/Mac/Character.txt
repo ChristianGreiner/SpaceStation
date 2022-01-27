@@ -11,6 +11,9 @@ Switch	ID	Name	Switch Group			Notes
 	2185786256	Gravel	Footsteps			
 	2473969246	Metal	Footsteps			
 
+Effect plug-ins	ID	Name	Type				Notes
+	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	101268704	footstep_gravel_4	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footstep_gravel_4_5A025F69.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\footstep_gravel_4		39074
 	225198790	footsteps_concrete_3	D:\Projekte\SpaceStation\SpaceStation\SpaceStation_WwiseProject\.cache\Mac\SFX\footsteps_concrete_3_933147FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\footsteps_concrete_3		34702

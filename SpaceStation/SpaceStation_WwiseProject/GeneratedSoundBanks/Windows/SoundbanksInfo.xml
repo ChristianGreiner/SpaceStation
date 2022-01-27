@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="78669895" Language="SFX" Hash="1424632718">
+		<SoundBank Id="78669895" Language="SFX" Hash="1689694348">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambiant</ObjectPath>
 			<ShortName>Ambiant</ShortName>
 			<Path>Ambiant.bnk</Path>
@@ -22,6 +22,14 @@
 						<File Id="673884553" Language="SFX">
 							<ShortName>construction.wav</ShortName>
 							<Path>SFX\construction_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1957839894" Name="Play_FlyBy" ObjectPath="\Events\Default Work Unit\Play_FlyBy" DurationType="OneShot" DurationMin="10.448979" DurationMax="10.448979">
+					<IncludedMemoryFiles>
+						<File Id="886064189" Language="SFX">
+							<ShortName>spaceship-flyby.wav</ShortName>
+							<Path>SFX\spaceship-flyby_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -62,12 +70,16 @@
 					<ShortName>SciFi-Hum-Loop.wav</ShortName>
 					<Path>SFX\SciFi-Hum-Loop_D79FB2B7.wem</Path>
 				</File>
+				<File Id="886064189" Language="SFX">
+					<ShortName>spaceship-flyby.wav</ShortName>
+					<Path>SFX\spaceship-flyby_10C4C929.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="2454089230" Name="PlayerInside" ObjectPath="\Game Parameters\Default Work Unit\PlayerInside"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="436743010" Language="SFX" Hash="189523118">
+		<SoundBank Id="436743010" Language="SFX" Hash="3426732670">
 			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
 			<ShortName>Character</ShortName>
 			<Path>Character.bnk</Path>
@@ -165,7 +177,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1409504247" Language="SFX" Hash="2452537924">
+		<SoundBank Id="1409504247" Language="SFX" Hash="163853552">
 			<ObjectPath>\SoundBanks\Default Work Unit\Static</ObjectPath>
 			<ShortName>Static</ShortName>
 			<Path>Static.bnk</Path>
@@ -197,7 +209,7 @@
 				<Event Id="118760090" Name="Stop_Portal" ObjectPath="\Events\Default Work Unit\Stop_Portal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1551306167" Language="SFX" Hash="3147335199">
+		<SoundBank Id="1551306167" Language="SFX" Hash="1290470010">
 			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
@@ -218,7 +230,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="2223635772" Language="SFX" Hash="534787550">
+		<SoundBank Id="2223635772" Language="SFX" Hash="3612845845">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dynamic</ObjectPath>
 			<ShortName>Dynamic</ShortName>
 			<Path>Dynamic.bnk</Path>
